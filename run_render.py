@@ -13,7 +13,7 @@ def health():
     return {"ok": True}, 200
 
 def start_bot():
-    from main import run_bot
+    from run import run_bot
     run_bot()
 
 if name == "main":
