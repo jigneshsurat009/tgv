@@ -1,0 +1,9 @@
+aiogram>=3.4.1,<4.0
+python-dotenv>=1.0.1,<2.0
+pydantic>=2.6,<3.0
+pydantic-settings>=2.2,<3.0
+gdown>=5.2.0,<6.0
+google-api-python-client>=2.169.0,<3.0
+google-auth-httplib2>=0.2.0,<1.0
+google-auth-oauthlib>=1.2.0,<2.0
+mega.py>=1.0.8,<2.0
