@@ -13,10 +13,10 @@ def health():
     return {"ok": True}, 200
 
 def start_bot():
-    from run import run_bot
-    run_bot()
+    from run import main
+    main()
 
-if name == "main":
+if __name__ == "__main__":
     t = threading.Thread(target=start_bot, daemon=True)
     t.start()
 
