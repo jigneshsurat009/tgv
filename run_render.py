@@ -13,9 +13,6 @@ def health():
     return {"ok": True}, 200
 
 def start_bot():
-    # replace this import with your real bot start function
-    # example: from app.main import run_bot
-    # run_bot()
     from main import run_bot
     run_bot()
 
